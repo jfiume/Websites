@@ -1,0 +1,101 @@
+@font-face {
+    font-family : "Emblema One";
+    src: url("Assets/fira-sans/EmblemaOne-Regular.woff"),
+    url("Assets/fira-sans/EmblemaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family : "FiraSans-Four";
+    src: url("Assets/fira-sans/FiraSans-Four.otf");
+}
+
+
+body {
+    background-image: url("Assets/shadow_cat.png");
+    background-color : blue;
+    border-top : 6px solid red;
+    border-bottom : 6px solid red;
+    border-left : 6px dotted red;
+    border-right : 6px dotted red;
+    font-size : medium;
+    color: rgb(34, 139, 34);
+}
+
+h1 {
+    font-family : "Emblema One", sans-serif;
+    color : red;
+    margin-left : 10px;
+    font-size : 200%;
+    font-weight : bold;
+}
+
+h2 {
+    font-family : "FiraSans-Four", sans-serif;
+    color : orange;
+    font-size : 150%;
+}
+
+h4 {
+    color : red;
+    font-size : 150%;
+}
+
+h3 {
+    color : purple;
+    font-size : 190%;
+}
+
+#interaction_humans {
+    color : rgb(255, 248, 220);
+    font-size : 150%;
+}
+
+.feral {
+    color : green;
+    background-color: black;
+    font-weight : normal;
+}
+
+div > p {
+    font-family : cursive;
+    background-color: black;
+    color: SandyBrown;
+}
+
+.domestic {
+   color : purple;
+   background-color: black;
+   font-weight: normal;
+}
+
+.cats {
+    color : black;
+    background-color: black;
+    font-weight : normal;
+}
+
+.habitat {
+    font-style : oblique;
+    background-color: black;
+    font-weight : normal;
+}
+
+.behavior {
+    color : lime;
+    background-color: black;
+    font-weight : normal;
+    border-left : 6px solid maroon;
+    border-right : 6px solid maroon;
+    font-family : Veranda, Geneva, Arial;
+}
+
+.credits {
+    color : white;
+    background-color: black;
+    font-family : normal;
+}
+
+ul > li {
+    color: DeepSkyBlue;
+    background-color: black;
+}
